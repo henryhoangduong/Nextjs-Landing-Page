@@ -55,7 +55,8 @@ const Features = () => {
               VoCake Deck
             </p>
             <p className="m-0 text-[18px]">
-              Increase student participation and create more classroom connections with tailor-made presentations and real-time feedback.
+              Increase student participation and create more classroom
+              connections with tailor-made presentations and real-time feedback.
             </p>
             <div>
               <p className="m-0 text-[18px] font-bold">Explore more</p>
@@ -112,7 +113,8 @@ const Features = () => {
               VoCake Deck
             </p>
             <p className="m-0 text-[18px]">
-              Increase student participation and create more classroom connections with tailor-made presentations and real-time feedback.
+              Increase student participation and create more classroom
+              connections with tailor-made presentations and real-time feedback.
             </p>
             <div>
               <p className="m-0 text-[18px] font-bold">Explore more</p>
