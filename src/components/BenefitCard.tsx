@@ -5,8 +5,8 @@ export type BenefitCardProps = {
   title: string;
   desc: string;
 };
-
-const BenefitCard = ({ image, title, desc }: BenefitCardProps) => {
+// eslint-disable-next-line @typescript-eslint/no-unused-vars 
+const BenefitCard = ({ image , title, desc }: BenefitCardProps) => {
   return (
     <div className="bg-[rgba(0,0,0,0.15)] flex flex-col gap-[24px] px-[32px] py-[40px] items-center text-black w-[400px] rounded-[16px] h-[376px] justify-center">
       <div className="bg-[rgba(0,0,0,0.2)] rounded-[500px] h-[100px] w-[100px]" />
