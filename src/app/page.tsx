@@ -21,7 +21,7 @@ const Home = () => {
       <Features />
       <Feedback />
       <VideoUsers />
-      <Pattern/>
+      <Pattern />
       <Benefit />
       <CTA />
       <Footer />

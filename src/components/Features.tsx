@@ -3,18 +3,18 @@ import Image from "next/image";
 
 const Features = () => {
   return (
-    <div className="w-screen bg-white flex items-center flex-col text-black py-[100px] px-[50px] gap-[100px]">
+    <div className="w-screen bg-[white] flex items-center flex-col text-black py-[120px] px-[50px] gap-[100px]">
       <div className="flex flex-col items-center gap-[32px]">
-        <p className="font-bold text-[56px] text-center w-[727px]">
+        <p className="font-bold text-[#9A62CB] text-[56px] text-center w-[727px]">
           Tools Designed with Educators
         </p>
-        <p className="text-[18px] text-center w-[727px]">
+        <p className="text-[18px] text-center w-[651px] ">
           VoCake Learning&apos;s innovative tools are designed in collaboration
           with educators and rooted in the science of learning, so they&apos;re
           proven to help students and schools succeed.
         </p>
-        <button className="text-white bg-black rounded-md px-[20px] py-[10px]">
-          LEARN MORE
+        <button className="text-white  rounded-md px-[20px] py-[10px] uppercase bg-[#FF7A1A]">
+          why vocake learning
         </button>
       </div>
       {/* Feature Sections*/}
@@ -28,15 +28,18 @@ const Features = () => {
             className="rounded-[16px]"
           />
           <div className="flex flex-col gap-5">
-            <p className="text-[#00332C] text-[48px] font-extrabold m-0">
+            <p className="text-[#9A62CB] text-[48px] font-extrabold m-0">
               VoCake Assessment
             </p>
             <p className="m-0 text-[18px]">
-              Visualize progress, identify gaps, and drive outcomes, all in one
-              easy system.
+              Our convenient, fast, and affordable English test integrates the
+              latest assessment science and AI — empowering anyone to accurately
+              test their English where and when they’re at their best.
             </p>
             <div>
-              <p className="m-0 text-[18px] font-bold">Explore more</p>
+              <button className="m-0 text-[14px] font-medium uppercase text-[#FF7A1A] border border-[#FF7A1A] p-4 rounded-[8px]">
+                Let&apos;s start
+              </button>
             </div>
           </div>
         </div>
@@ -51,15 +54,18 @@ const Features = () => {
 
         <div className="flex items-center gap-10">
           <div className="flex flex-col gap-5">
-            <p className="text-[#00332C] text-[48px] font-extrabold m-0">
-              VoCake Deck
+            <p className="text-[#9A62CB] text-[48px] font-extrabold m-0">
+              VoCake For Schools
             </p>
             <p className="m-0 text-[18px]">
-              Increase student participation and create more classroom
-              connections with tailor-made presentations and real-time feedback.
+              Teachers, we’re here to help you! Our free tools support your
+              students as they learn languages through VoCake, both in and out
+              of the classroom.
             </p>
             <div>
-              <p className="m-0 text-[18px] font-bold">Explore more</p>
+              <button className="m-0 text-[14px] font-medium uppercase text-[#FF7A1A] border border-[#FF7A1A] p-4 rounded-[8px]">
+                get your class started
+              </button>
             </div>
           </div>
           <Image
@@ -87,15 +93,18 @@ const Features = () => {
             className="rounded-[16px]"
           />
           <div className="flex flex-col gap-5">
-            <p className="text-[#00332C] text-[48px] font-extrabold m-0">
-              VoCake Assessment
+            <p className="text-[#9A62CB] text-[48px] font-extrabold m-0">
+              VoCake Challenges
             </p>
             <p className="m-0 text-[18px]">
-              Visualize progress, identify gaps, and drive outcomes, all in one
-              easy system.
+              Our free, bite-sized approach — but for fun! Challenges help
+              students get ahead in their language skills, while adults can
+              brain train to boost their speaking skills.
             </p>
             <div>
-              <p className="m-0 text-[18px] font-bold">Explore more</p>
+              <button className="m-0 text-[14px] font-medium uppercase text-[#FF7A1A] border border-[#FF7A1A] p-4 rounded-[8px]">
+                Face off and boost your fluency
+              </button>
             </div>
           </div>
         </div>
@@ -109,15 +118,18 @@ const Features = () => {
         </div>
         <div className="flex items-center gap-10">
           <div className="flex flex-col gap-5">
-            <p className="text-[#00332C] text-[48px] font-extrabold m-0">
-              VoCake Deck
+            <p className="text-[#9A62CB] text-[48px] font-semibold m-0">
+              VoCake Tools
             </p>
             <p className="m-0 text-[18px]">
-              Increase student participation and create more classroom
-              connections with tailor-made presentations and real-time feedback.
+              No more students waiting for their turn to speak! On VoCake,
+              students can contribute instantly, simultaneously, and from
+              anywhere.
             </p>
             <div>
-              <p className="m-0 text-[18px] font-bold">Explore more</p>
+              <button className="m-0 text-[14px] font-medium uppercase text-[#FF7A1A] border border-[#FF7A1A] p-4 rounded-[8px]">
+                search and save your own vocab
+              </button>
             </div>
           </div>
           <Image

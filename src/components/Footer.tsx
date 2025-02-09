@@ -2,40 +2,40 @@ import React from "react";
 import Image from "next/image";
 const Footer = () => {
   return (
-    <div className="flex flex-col w-screen px-[80px] py-[120px] gap-[50px]">
+    <div className="flex flex-col w-screen px-[80px] py-[120px] gap-[50px] bg-[#BF9BDE]">
       <div className="flex gap-[100px]">
         <div className=" gap-[20px] flex flex-col justify-between">
-          <p className="text-[56px] font-bold">LOGO</p>
+          <p className="text-[56px] font-bold text-white">VOCAKE</p>
           <div className="border border-white border-solid rounded-[4px] w-[480] flex">
             <input
               type="text"
               placeholder="Enter your email"
-              className="bg-transparent flex-1 p-[10px]"
+              className="bg-transparent flex-1 p-[10px] text-white placeholder-white"
             />
             <button className="border bg-white text-black p-[10px] border-solid">
               Subscribe
             </button>
           </div>
-          <p className="text-[14px] text-[#808080]">
+          <p className="text-[14px]  text-white">
             We’ll send you a nice “Newsletter” every two weeks. No spam.
           </p>
           <div>
-            <p className="text-[16px] font-bold text-[#808080]">Contact us</p>
-            <p className="text-[14px] text-[#808080]">1900 6067</p>
-            <p className="text-[14px] text-[#808080]">support@vocake.vn</p>
+            <p className="text-[16px] font-bold text-white">Contact us</p>
+            <p className="text-[14px] text-white">1900 6067</p>
+            <p className="text-[14px] text-white">support@vocake.vn</p>
           </div>
           <div className="flex gap-20">
             <div>
-              <p className="text-[14px] text-[#808080] font-extrabold">
+              <p className="text-[14px] text-white font-extrabold">
                 HCM Head Office
               </p>
-              <p className="text-[14px] text-[#808080] font-extrabold">...</p>
+              <p className="text-[14px] text-white font-extrabold">...</p>
             </div>
             <div>
-              <p className="text-[14px] text-[#808080] font-extrabold">
+              <p className="text-[14px] text-white font-extrabold">
                 Ha Noi City Office
               </p>
-              <p className="text-[14px] text-[#808080] font-extrabold">...</p>
+              <p className="text-[14px] text-white font-extrabold">...</p>
             </div>
           </div>
           <div className="flex w-full flex-row gap-10">
@@ -48,23 +48,23 @@ const Footer = () => {
           <p>Products</p>
           <div className="flex justify-start flex-wrap gap-[30px] h-[242px]">
             <div className="w-[200px] shrink-0 h-max">
-              <p className="text-[#808080]">VoCake Assessment</p>
-              <p className="text-[#808080]">...</p>
+              <p className="text-white">VoCake Assessment</p>
+              <p className="text-white">...</p>
             </div>
             <div className="w-[200px] shrink-0 h-max">
-              <p className="text-[#808080]">VoCake Deck</p>
-              <p className="text-[#808080]">...</p>
+              <p className="text-white">VoCake Deck</p>
+              <p className="text-white">...</p>
             </div>
             <div className="w-[200px] shrink-0 h-max">
-              <p className="text-[#808080]">VoCake Practice</p>
-              <p className="text-[#808080]">...</p>
+              <p className="text-text-white">VoCake Practice</p>
+              <p className="text-text-white">...</p>
             </div>
             <div className="w-[200px] shrink-0 h-max">
-              <p className="text-[#808080]">VoCake Tutor</p>
-              <p className="text-[#808080]">...</p>
+              <p className="text-text-white">VoCake Tutor</p>
+              <p className="text-text-white">...</p>
             </div>
             <div className="w-[200px] shrink-0 h-max">
-              <p className="text-[#808080]">Others</p>
+              <p className="text-text-white">Others</p>
             </div>
           </div>
           <div className="flex justify-between">

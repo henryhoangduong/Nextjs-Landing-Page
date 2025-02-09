@@ -2,10 +2,14 @@ import React from "react";
 import Image from "next/image";
 const VideoUsers = () => {
   return (
-    <div className="bg-[#F0F3F7] w-screen flex flex-col items-center py-[20px] ">
-      <div className="h-[695px] w-[1283px] rounded-[16px] relative top-[-50px] bg-white flex justify-center items-center">
-        <Image src="/asset/Video.png" alt="video" width={112} height={112} />
-      </div>
+    <div className="bg-[hsl(214,30%,95%)] w-screen flex flex-col items-center py-[20px] ">
+      <Image
+        src="/asset/Untitled-1-01-01 1.png"
+        alt="video"
+        width={1180}
+        height={850}
+        className="transform -translate-y-[120px]"
+      />
     </div>
   );
 };
