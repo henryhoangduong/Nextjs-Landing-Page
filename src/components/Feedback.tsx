@@ -1,3 +1,4 @@
+import Image from "next/image";
 import React from "react";
 
 const Feedback = () => {
@@ -14,6 +15,21 @@ const Feedback = () => {
           <p className="text-[18px] font-medium text-white">
              Assistant Principal of Serrano High School
           </p>
+        </div>
+        <div className="flex flex-row gap-2">
+          <Image
+            src={"/arrow-circle-right.svg"}
+            alt=""
+            width={40}
+            height={40}
+          />
+          <Image
+            src={"/arrow-circle-right.svg"}
+            alt=""
+            width={40}
+            height={40}
+            style={{ transform: "scaleX(-1)" }}
+          />
         </div>
       </div>
     </div>

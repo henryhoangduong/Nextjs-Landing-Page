@@ -21,7 +21,7 @@ const Features = () => {
       <div>
         <div className="flex items-center gap-10">
           <Image
-            src={"/asset/VoCakeAssessment.png"}
+            src={"/asset/Screens1.png"}
             alt="video"
             width={640}
             height={480}
@@ -69,7 +69,7 @@ const Features = () => {
             </div>
           </div>
           <Image
-            src={"/asset/VoCakeDeck.png"}
+            src={"/asset/Screens.png"}
             alt="video"
             width={640}
             height={480}
@@ -86,7 +86,7 @@ const Features = () => {
         </div>
         <div className="flex items-center gap-10">
           <Image
-            src={"/asset/build-confidence@2x.png"}
+            src={"/asset/ppp-02 1.png"}
             alt="video"
             width={640}
             height={480}
@@ -133,7 +133,7 @@ const Features = () => {
             </div>
           </div>
           <Image
-            src={"/asset/gradable-discussion@2x.png"}
+            src={"/asset/Screens3.png"}
             alt="video"
             width={640}
             height={480}
